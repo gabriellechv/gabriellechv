@@ -1,0 +1,187 @@
+*{
+    margin: 5px;
+    padding : 0
+}
+
+body {
+    background-color: #000000;
+    padding: 20px 10%;
+    
+ }
+
+ body{
+  @media screen and {max-width: 500px}
+}
+
+nav.menu-desktop{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+nav.menu-mobile{
+  display: none;
+}
+@media screen and (max-width: 500px) {
+  nav.menu-desktop{
+    display: none;
+  }
+  nav.menu-mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+
+.separation{
+  width: 30%;
+  border-bottom: white 1px solid;
+  margin: auto;
+  margin-top: 20px;
+}
+
+ nav a {
+    color: #ffd700;
+    text-decoration: none;
+ }
+
+ nav ul {
+    list-style-type: none;
+    display: flex; 
+    justify-content: space-around; 
+    font-size: 26px; 
+}
+p {
+    font-size: 20px
+}
+
+h1 {
+    color: #ffd700;
+    margin-top: 50;
+    margin-bottom: 50;
+}
+
+h2 {
+   color: #ffffff;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h3{ 
+   color: #ffffff;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size:23px
+}
+
+p{ 
+  color: #ffffff;
+}
+
+section.banner {
+    background-image: url(Image/teams.JPG);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 5px 0;
+}
+section.banner h1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    margin-top: 80px;
+    text-shadow: 0px 0px 10px black;
+}
+img.plan,img.team,img.photopres,img.photoactu {
+  margin: 40px auto;
+  display: block;
+}
+
+img.logors {width: 50px; border-radius: 5px;}
+
+img.plan {
+  width: 80%;
+  margin-top: 10px;
+}
+
+img.team {
+  width: 800px;
+  margin-bottom: 20px;
+}
+
+img.photopres {
+  width: 400px;
+}
+
+img.logoecurie{width: 50px;}
+
+img.photoactu {
+    width: 300px;
+   }
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around; 
+    font-size: 26px; 
+}
+
+div.entete {
+  text-align: center;
+
+}
+
+form {
+        margin: 0 auto;
+        width: 400px;
+        padding: 1em;
+        border: 1px solid #ffffff;
+        border-radius: 1em;
+      }
+      
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      form li + li {
+        margin-top: 1em;
+      }
+      
+      label {
+        display: inline-block;
+        width: 90px;
+        color: #ffffff;
+      }
+      
+      input,
+      textarea {
+        color: #000000;
+        font: 1em sans-serif;
+        width: 300px;
+        box-sizing: border-box;
+        border: 1px solid #ffffff;
+      }
+      
+      input:focus,
+      textarea:focus {
+        border-color: #ffd700;
+      }
+      
+      textarea {
+        color: #000000;
+        vertical-align: top;
+        height: 5em;
+        resize: vertical;
+      }
+      .button {
+        padding-left: 90px; 
+      }  
+      button {
+        margin-left: 0.5em;
+      }
+
