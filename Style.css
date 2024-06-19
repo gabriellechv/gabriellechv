@@ -121,6 +121,14 @@ img.photoactu {
     width: 300px;
    }
 
+div.banniere {
+        margin-bottom: 5px;
+        background-color: rgb(66, 65, 64);
+      }
+
+      a.linkedin {
+        color: #ffd700;
+      }    
 
 nav ul {
     list-style-type: none;
