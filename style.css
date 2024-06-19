@@ -165,8 +165,8 @@ form {
         width: 90px;
         color: #ffffff;
       }
-      
-      input,
+
+    input,
       textarea {
         color: #000000;
         font: 1em sans-serif;
@@ -174,17 +174,8 @@ form {
         box-sizing: border-box;
         border: 1px solid #ffffff;
       }
-      
-      input:focus,
-      textarea:focus {
-        border-color: #ffd700;
-      }
-      
-      textarea {
-        color: #000000;
-        vertical-align: top;
-        height: 5em;
-        resize: vertical;
+     
+    
       }
       .button {
         padding-left: 90px; 
